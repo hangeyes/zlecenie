@@ -5,10 +5,49 @@
 		background: -moz-linear-gradient(top, #a0a0a0, #606060);
 		background: linear-gradient(top, #a0a0a0, #606060);
 		width: 30%;
-		height: 200px;
-		border-radius: 25px;		
+		height: auto;
+		min-height: 200px;
+		max-height: 300px;
+		border-radius: 25px;
+		float: right;		
+	}
+	
+	#sidebar > .header {
+		text-align: center;
+		font-family: Calibri;
+		font-size: 28px;
+		margin-top: 18px;
+		margin-bottom: 18px;
+		color: white;
+	}
+	
+	#sidebar > .content {
+		color: white;
+		text-align: center;
+		font-family: Calibri;
+		font-size: 18px;
+		
+	}
+	
+	#sidebar > hr {
+		
+	}
+	
+	#sidebar > .date {
+		font-family: Calibri;
+		text-align: right;
+		margin-right: 20px;
+		margin-bottom: 15px;
 	}
 </style>
 <div id="sidebar">
-	<p id="header">Aktualności</p>
+	<p class="header">Aktualności</p>
+	<hr />
+	<div class="content">
+		<p>PlePleple</p>
+		<p>Blabla</p>
+	</div>
+	<div class="date">
+		<p>19.05.2015</p>
+	</div>
 </div>
