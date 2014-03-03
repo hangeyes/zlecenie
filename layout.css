@@ -1,0 +1,121 @@
+html {
+	overflow-x: hidden;
+}
+
+#sidemenu {
+		background: -webkit-linear-gradient(top, #a0a0a0, #bfbfbf);
+		background: -o-linear-gradient(top, #a0a0a0, #bfbfbf);
+		background: -moz-linear-gradient(top, #a0a0a0, #bfbfbf);
+		background: linear-gradient(top, #a0a0a0, #bfbfbf);
+		width: 30%;
+		height: auto;
+		min-height: 200px;
+		max-height: 300px;
+		border-radius: 25px;
+		float: right;
+		margin-top: 80px;
+		margin-right: 1%;	
+	}
+	
+#sidemenu > .header {
+		text-align: center;
+		font-family: Calibri;
+		font-size: 28px;
+		margin-top: 18px;
+		margin-bottom: 18px;
+		color: white;
+	}
+	
+#sidemenu > .content {
+		color: white;
+		text-align: center;
+		font-family: Calibri;
+		font-size: 18px;
+		
+	}
+	
+#sidemenu > hr {
+		
+	}
+	
+#sidemenu > .date {
+		font-family: Calibri;
+		text-align: right;
+		margin-right: 20px;
+		margin-bottom: 15px;
+	}
+	
+#banner {
+		height: 200px;
+		width: 100%;
+		background-image: url("img/background.png");
+		background-repeat: no-repeat;
+	}
+	
+#menu > .button {
+		height: 50px;
+		width: 14%;
+		background-color: #A52423;
+		float: left;
+		clear: none;
+		margin-left: 15px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+	
+#menu {
+	 	margin-left: 10%;
+	 	transform: skewX(10deg);
+	 	-ms-transform: skewX(10deg);
+	 	-webkit-transform: skewX(15deg);
+	 }
+	 
+.button#kontakt {
+	 	background-color: #A02423;
+	 }
+	 
+.button > a > p {
+	 	text-align: center;
+	 	margin-top: 10px;
+	 	vertical-align: middle;
+	 	font-size: 100%;
+	 }
+	 
+.button > a {
+	 	font-family: Cambria;
+	 	color: black;
+	 	text-decoration: none;
+	 }
+	 
+#searchbar_frame{
+	 	height: 50px;
+	 	float: right;
+	 	margin-right: 2%;
+	 	width: 30%;
+	 	text-align: center;
+		}
+		
+#searchbar {
+	 	-moz-box-shadow: inset 0 0 2px rgba(0,0,0,0.2); 
+		-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2); 
+		box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+		margin-top: 20px;
+		width: 70%;
+	}
+	
+#article {
+		height: auto;
+		min-height: 200px;
+		max-height: 300px;
+		border-color: #a0a0a0;
+		border-width: 5px;
+		border-style: solid;
+		width: 60%;
+		overflow:  hidden;
+		border-radius: 25px;
+		border-left-style: none;
+		border-right-style: none;
+		float: left;
+		margin-left: 2%;
+		margin-top: 80px;	
+	}
