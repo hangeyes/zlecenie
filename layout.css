@@ -181,6 +181,7 @@ html {
     	background-image:     -ms-linear-gradient(left, #ccc, #A0A0A0, #ccc); 
     	background-image:      -o-linear-gradient(left, #ccc, #A0A0A0, #ccc);
     	margin-bottom: 2px;
+    	vertical-align: bottom;
 	}
 	
 #footer {
